@@ -1,3 +1,13 @@
+/*
+* File: MainConsole.java
+* Author: Sulan Ádám
+* Copyright: 2023, Sulan Ádám
+* Group: Szoft I-1-N
+* Date: 2023-02-20
+* Github: https://github.com/AdamSulan/lelepi.git
+* Licenc: GNU GPL
+*/
+
 import java.util.Scanner;
 
 public class MainConsole {
