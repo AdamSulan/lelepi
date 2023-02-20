@@ -23,7 +23,7 @@ public class MainConsole {
     }
     public void about(){
         System.out.println("Feladat 0358 megoldása:");
-        System.out.println("A paralelepipedon területe:");
+        System.out.println("A paralelepipedon térfogata:");
     }
     private String input(String message){
         System.out.print(message);
@@ -32,11 +32,11 @@ public class MainConsole {
         return value;
     }
     public void task(){
-        String aStr=input("A oldal: ");
+        String aStr=input("A él hossza: ");
         double a=Double.parseDouble(aStr);
-        String bStr=input("B oldal: ");
+        String bStr=input("B él hossza: ");
         double b=Double.parseDouble(bStr);
-        String cStr=input("C oldal: ");
+        String cStr=input("C él hossza: ");
         double c=Double.parseDouble(cStr);
 
         Paralelepipedon paralelepipedon=new Paralelepipedon();
